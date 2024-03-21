@@ -1,0 +1,283 @@
+{
+    "seasons" : [
+        {
+            "id": 1,
+            "year": "2022-23",
+            "winning_club": "Manchester City",
+            "runner_up":"Arsenal",
+            "top_scorer": "Erling Haaland (Manchester City) - 36 goals",
+            "golden_glove": "David de Gea (Manchester United) - 17 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 2,
+            "year": "2021-22",
+            "winning_club": "Manchester City",
+            "runner_up":"Liverpool",
+            "top_scorer": "Tie: Mohamed Salah (Liverpool), Son Heung-min (Tottenham Hotspur) - 23 goals",
+            "golden_glove": "Tie: Alisson Becker (Liverpool), Ederson (Manchester City) - 20 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 3,
+            "year": "2020-21",
+            "winning_club": "Manchester City",
+            "runner_up":"Manchester United",
+            "top_scorer": "Harry Kane (Tottenham Hotspur) - 23 goals",
+            "golden_glove": "Ederson (Manchester City) - 23 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 4,
+            "year": "2019-20",
+            "winning_club": "Liverpool",
+            "runner_up":"Manchester City",
+            "top_scorer": "Jamie Vardy (Leicester City) - 23 goals",
+            "golden_glove": "Ederson (Manchester City) - 16 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/360px-Liverpool_FC.svg.png"
+        },
+        {
+            "id": 5,
+            "year": "2018-19",
+            "winning_club": "Manchester City",
+            "runner_up":"Liverpool",
+            "top_scorer": "Tie: Pierre-Emerick Aubameyang (Arsenal), Sadio Mané (Liverpool), Mohamed Salah (Liverpool) - 22 goals",
+            "golden_glove": "Alisson Becker (Liverpool) - 21 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 6,
+            "year": "2017-18",
+            "winning_club": "Manchester City",
+            "runner_up": "Manchester United",
+            "top_scorer": "Mohamed Salah (Liverpool) - 32 goals",
+            "golden_glove": "David de Gea (Manchester United) - 18 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 7,
+            "year": "2016-17",
+            "winning_club": "Chelsea",
+            "runner_up": "Tottenham Hotspur",
+            "top_scorer": "Harry Kane (Tottenham Hotspur) - 29 goals",
+            "golden_glove": "Thibaut Courtois (Chelsea) - 16 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/380px-Chelsea_FC.svg.png"
+        },
+        {
+            "id": 8,
+            "year": "2015-16",
+            "winning_club": "Leicester City",
+            "runner_up": "Arsenal",
+            "top_scorer": "Harry Kane (Tottenham Hotspur) - 25 goals",
+            "golden_glove": "Petr Čech (Arsenal) - 16 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/380px-Leicester_City_crest.svg.png"
+        },
+        {
+            "id": 9,
+            "year": "2014-15",
+            "winning_club": "Chelsea",
+            "runner_up": "Manchester City",
+            "top_scorer": "Sergio Agüero (Manchester City) - 26 goals",
+            "golden_glove": "Joe Hart (Manchester City) - 14 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/380px-Chelsea_FC.svg.png"
+        },
+        {
+            "id": 10,
+            "year": "2013-14",
+            "winning_club": "Manchester City",
+            "runner_up": "Liverpool",
+            "top_scorer": "Luis Suárez (Liverpool) - 31 goals",
+            "golden_glove": "Tie: Petr Čech (Chelsea), Wojciech Szczęsny - 16 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 11,
+            "year": "2012-13",
+            "winning_club": "Manchester United",
+            "runner_up": "Manchester City",
+            "top_scorer": "Robin van Persie (Manchester United) - 26 goals",
+            "golden_glove": "Joe Hart (Manchester City) - 18 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 12,
+            "year": "2011-12",
+            "winning_club": "Manchester City",
+            "runner_up": "Manchester United",
+            "top_scorer": "Robin van Persie (Arsenal) - 30 goals",
+            "golden_glove": "Joe Hart (Manchester City) - 17 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/380px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 13,
+            "year": "2010-11",
+            "winning_club": "Manchester United",
+            "runner_up": "Chelsea",
+            "top_scorer": "Tie: Dimitar Berbatov (Manchester United), Carlos Tevez (Manchester City) - 20 goals",
+            "golden_glove": "Joe Hart (Manchester City) - 18 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 14,
+            "year": "2009-10",
+            "winning_club": "Chelsea",
+            "runner_up": "Manchester United",
+            "top_scorer": "Didier Drogba (Chelsea) - 29 goals",
+            "golden_glove": "Petr Čech (Chelsea) - 17 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/380px-Chelsea_FC.svg.png"
+        },
+        {
+            "id": 15,
+            "year": "2008-09",
+            "winning_club": "Manchester United",
+            "runner_up": "Liverpool",
+            "top_scorer": "Nicolas Anelka (Chelsea) - 19 goals",
+            "golden_glove": "Edwin van der Sar (Manchester United) - 21 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 16,
+            "year": "2007-08",
+            "winning_club": "Manchester United",
+            "runner_up":"Chelsea",
+            "top_scorer": "Cristiano Ronaldo (Manchester United) - 31 goals",
+            "golden_glove": "Pepe Reina (Liverpool) - 18 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 17,
+            "year": "2006-07",
+            "winning_club": "Manchester United",
+            "runner_up":"Chelsea",
+            "top_scorer": "Didier Drogba (Chelsea) - 20 goals",
+            "golden_glove": "Pepe Reina (Liverpool) - 19 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 18,
+            "year": "2005-06",
+            "winning_club": "Chelsea",
+            "runner_up":"Manchester United",
+            "top_scorer": "Thierry Henry (Arsenal) - 27 goals",
+            "golden_glove": "Pepe Reina (Liverpool) - 20 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/380px-Chelsea_FC.svg.png"
+        },
+        {
+            "id": 19,
+            "year": "2004-05",
+            "winning_club": "Chelsea",
+            "runner_up":"Arsenal",
+            "top_scorer": "Thierry Henry (Arsenal) - 25 goals",
+            "golden_glove": "Petr Čech (Chelsea) - 24 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/380px-Chelsea_FC.svg.png"
+        },
+        {
+            "id": 20,
+            "year": "2003-04",
+            "winning_club": "Arsenal",
+            "runner_up":"Chelsea",
+            "top_scorer": "Thierry Henry (Arsenal) - 30 goals",
+            "golden_glove": "Tie: Jens Lehmann (Arsenal), Edwin van der Sar (Manchester United) - 15 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/360px-Arsenal_FC.svg.png"
+        },
+        {
+            "id": 21,
+            "year": "2002-03",
+            "winning_club": "Manchester United",
+            "runner_up":"Arsenal",
+            "top_scorer": "Ruud van Nistelrooy (Manchester United) - 25 goals",
+            "golden_glove": "Brad Friedel (Blackburn Rovers) - 15 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 22,
+            "year": "2001-02",
+            "winning_club": "Arsenal",
+            "runner_up":"Liverpool",
+            "top_scorer": "Thierry Henry (Arsenal) - 24 goals",
+            "golden_glove": "Nigel Martyn (Leeds United) - 18 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/360px-Arsenal_FC.svg.png"
+        },
+        {
+            "id": 23,
+            "year": "2000-01",
+            "winning_club": "Manchester United",
+            "runner_up":"Arsenal",
+            "top_scorer": "Jimmy Floyd Hasselbaink (Chelsea) - 23 goals",
+            "golden_glove": "Fabien Barthez (Manchester United) - 15 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 24,
+            "year": "1999-2000",
+            "winning_club": "Manchester United",
+            "runner_up":"Arsenal",
+            "top_scorer": "Kevin Phillips (Sunderland) - 30 goals",
+            "golden_glove": "Ed de Goey (Chelsea) - 16 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 25,
+            "year": "1998-99",
+            "winning_club": "Manchester United",
+            "runner_up":"Arsenal",
+            "top_scorer": "Tie: Jimmy Floyd Hasselbaink (Chelsea), Michael Owen (Liverpool), Dwight Yorke (Manchester United) - 18 goals",
+            "golden_glove": "David Seaman (Arsenal) - 19 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 26,
+            "year": "1997-98",
+            "winning_club": "Arsenal",
+            "runner_up":"Manchester United",
+            "top_scorer": "Tie: Dion Dublin (Coventry City), Michael Owen (Liverpool), Chris Sutton (Blackburn Rovers) - 18 goals",
+            "golden_glove": "Peter Schmeichel (Manchester United) - 16 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/360px-Arsenal_FC.svg.png"
+        },
+        {
+            "id": 27,
+            "year": "1996-97",
+            "winning_club": "Manchester United",
+            "runner_up":"Newcastle United",
+            "top_scorer": "Alan Shearer (Newcastle United) - 25 goals",
+            "golden_glove": "Nigel Martyn (Leeds United) - 19 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 28,
+            "year": "1995-96",
+            "winning_club": "Manchester United",
+            "runner_up":"Newcastle United",
+            "top_scorer": "Alan Shearer (Blackburn Rovers) - 31 goals",
+            "golden_glove": "Peter Schmeichel (Manchester United) - 18 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 29,
+            "year": "1994-95",
+            "winning_club": "Blackburn Rovers",
+            "runner_up":"Manchester United",
+            "top_scorer": "Alan Shearer (Blackburn Rovers) - 34 goals",
+            "golden_glove": "Peter Schmeichel (Manchester United) - 20 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Blackburn_Rovers.svg/350px-Blackburn_Rovers.svg.png"
+        },
+        {
+            "id": 30,
+            "year": "1993-94",
+            "winning_club": "Manchester United",
+            "runner_up":"Blackburn Rovers",
+            "top_scorer": "Andy Cole (Newcastle United) - 34 goals",
+            "golden_glove": "David Seaman (Arsenal) - 19 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 31,
+            "year": "1992-93",
+            "winning_club": "Manchester United",
+            "runner_up":"Aston Villa",
+            "top_scorer": "Teddy Sheringham (Tottenham Hotspur) - 22 goals",
+            "golden_glove": "Bobby Mimms (Blackburn Rovers) - 19 clean sheets",
+            "club_crest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/400px-Manchester_United_FC_crest.svg.png"
+        }
+    ]
+}
