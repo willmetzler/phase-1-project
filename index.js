@@ -7,9 +7,27 @@ const displayResults = (season) => {
     document.querySelector("#top-scorer").textContent = season.top_scorer;
     document.querySelector("#top-goalkeeper").textContent = season.golden_glove;
 
-    document.querySelector(".teamUL").remove();
+    //document.querySelector(".teamUL").remove();
+    //document.querySelector("#search-bar").value = "";
 
 }
+
+
+const clearSeasonResults = () => {
+    document.querySelector("#results-text").textContent = "";
+    document.querySelector("#season-placeholder").textContent = "";
+    document.querySelector("#winners").textContent = "";
+    document.querySelector("#runners-up").textContent = "";
+    document.querySelector("#top-scorer").textContent = "";
+    document.querySelector("#top-goalkeeper").textContent = "";
+}
+
+const clearTeamResults = () => {
+    document.querySelector(".teamUL").textContent = "";
+    document.querySelector("#search-bar").value = "";
+}
+
+
 //Function to call for changing prem logo
 const changePremLogo = (logo) => {
     document.querySelector("#current-logo").src = logo.image;
@@ -46,6 +64,7 @@ fetch("http://localhost:3000/seasons")
         const selectedYear = document.querySelector("#dropdown-menu").value;
         const selectedSeason = seasons.find(season => season.year === selectedYear);
         displayResults(selectedSeason);
+        clearTeamResults();
       });
 
       const teamUL = document.querySelector(".teamUL");
@@ -54,22 +73,49 @@ fetch("http://localhost:3000/seasons")
         const searchText = document.querySelector("#search-bar").value;
   
         teamUL.innerHTML = '';
+        
         seasons.forEach(season => {
           if (season.winning_club.includes(searchText)) {
             const winningSeasons = document.createElement("li");
             winningSeasons.textContent = season.year;
             teamUL.append(winningSeasons);
+            clearSeasonResults();
 
             document.querySelector("#club-logo").src = season.club_crest;
+
+            document.querySelector("#delete-button").addEventListener("click", e => {
+                winningSeasons.remove();
+                document.querySelector("#club-logo").src = "https://png2.cleanpng.com/sh/2ffdebf31805d55828fb4d655d3eec54/L0KzQYm3VsE0N5J6jJH0aYP2gLBuTgBzbZ5ufeQ2bHXkd8bsTgVmbpIye9pqbYDsf7B6TfxmaZh6fZ92YX7meLb6lPVzNZRuReJ7ZX3sdcO0jPVib6ZqReZ7b4DriX68gsIxbGE4SagENXO4RHA5V8YxOWYASqMAMki7R4i4UMU1O2I7RuJ3Zx==/kisspng-premier-league-uefa-champions-league-manchester-ci-premier-league-trophy-5b20d031695c54.2760159215288771054316.png";
+                document.querySelector("#search-bar").value = "";
+                document.querySelector("#dropdown-menu").value = "Season..."
+                clearSeasonResults();
+                clearTeamResults();
+            })
+
           }
         })
         }
       });
+
       document.querySelector("#team-search").addEventListener("submit", e => {
         e.preventDefault();
       })
     });
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
