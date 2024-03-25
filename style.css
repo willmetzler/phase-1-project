@@ -1,3 +1,17 @@
 body {
     background: #01fe87;
+    text-align: center;
   }
+
+h3#results-text {
+  text-decoration: underline;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.teamUL {
+  display: inline-block;
+  text-align: left;
+}

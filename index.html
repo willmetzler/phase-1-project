@@ -2,10 +2,52 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
+    <script defer src="./index.js"></script>
     <title>Phase 1 Project</title>
   </head>
   <body>
-    <h1>Phase 1 Project</h1>
+    <h1>Premier League Results Checker</h1>
+      <div id="prem-logo">
+        <img id="current-logo" src="">
+      </div>
+    <h2>Search by season to see key results!</h2>
+    <h2>Or search by team to see the seasons they've won... or maybe didn't!</h2>
+    <div>
+      <form id="team-search" action="" method="GET">
+        <label for="search-bar">Search by team:</label>
+        <input type="search" id="search-bar" name="search-bar" placeholder="Team...">
+      </form>
+
+      <div class="container" id="team-results">
+        <h4 id="error-placeholder"></h4>
+        <ul class="teamUL">
+        
+        </ul>
+      </div>
+
+      
+
+      <form id="season-search" action="" method="GET">
+        <label for="dropdown-menu">Find results by season:</label>
+        <select id="dropdown-menu" name="seasons-menu">
+          <option selected disabled>Season...</option>
+        </select>
+        <input id= "submit-year" type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div id="results">
+      <h3 id="results-text"></h3>
+        <section id="results-here">
+          <h4 id="season-placeholder"></h4>
+          <p id="winners"></p>
+          <p id="runners-up"></p>
+          <p id="top-scorer"></p>
+          <p id="top-goalkeeper"></p>
+        </section>
+        <br/>
+        <img id="club-logo" style="width: 25%; height: 25%" src="https://png2.cleanpng.com/sh/2ffdebf31805d55828fb4d655d3eec54/L0KzQYm3VsE0N5J6jJH0aYP2gLBuTgBzbZ5ufeQ2bHXkd8bsTgVmbpIye9pqbYDsf7B6TfxmaZh6fZ92YX7meLb6lPVzNZRuReJ7ZX3sdcO0jPVib6ZqReZ7b4DriX68gsIxbGE4SagENXO4RHA5V8YxOWYASqMAMki7R4i4UMU1O2I7RuJ3Zx==/kisspng-premier-league-uefa-champions-league-manchester-ci-premier-league-trophy-5b20d031695c54.2760159215288771054316.png">
+    </div>
+
   </body>
 </html>
