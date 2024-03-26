@@ -283,17 +283,17 @@
     "logos": [ 
         {
             "id": 1,
-            "era": "1992 - 2007",
+            "era": "Era used: 1992 - 2007",
             "image": "https://www.footballkitarchive.com/static/logos/thumb/NtW9XC7Td0iPsRK/premier-league-1992-2007-logo.png"
         },
         {
             "id": 2,
-            "era": "2007 - 2016",
+            "era": "Era used: 2007 - 2016",
             "image": "https://www.footballkitarchive.com/static/logos/thumb/wq3HFtnsjabkhpI/premier-league-2007-2016-logo.png"
         },
         {
             "id": 3,
-            "era": "2016 - Present",
+            "era": "Era used: 2016 - Present",
             "image": "https://www.footballkitarchive.com/static/logos/thumb/MgqgwecsOFDu0Ok/premier-league-2016-logo.png"
         }
     

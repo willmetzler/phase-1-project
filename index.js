@@ -1,3 +1,4 @@
+// function that handles displaying the season results and changing of team logo
 const displayResults = (season) => {
     document.querySelector("#results-text").textContent = "Results";
     document.querySelector("#club-logo").src = season.club_crest;
@@ -6,13 +7,10 @@ const displayResults = (season) => {
     document.querySelector("#runners-up").textContent = season.runner_up;
     document.querySelector("#top-scorer").textContent = season.top_scorer;
     document.querySelector("#top-goalkeeper").textContent = season.golden_glove;
-
-    //document.querySelector(".teamUL").remove();
-    //document.querySelector("#search-bar").value = "";
-
 }
 
 
+// function that resets the season results
 const clearSeasonResults = () => {
     document.querySelector("#results-text").textContent = "";
     document.querySelector("#season-placeholder").textContent = "";
@@ -22,6 +20,7 @@ const clearSeasonResults = () => {
     document.querySelector("#top-goalkeeper").textContent = "";
 }
 
+// function that resets team results by season
 const clearTeamResults = () => {
     document.querySelector(".teamUL").textContent = "";
     document.querySelector("#search-bar").value = "";
@@ -46,6 +45,11 @@ fetch("http://localhost:3000/logos")
         currentLogoIndex = (currentLogoIndex + 1) % logos.length;
         changePremLogo(logos[currentLogoIndex]);
         });
+    
+  // Below code displays the era for which each logo was used as hover text 
+    logoImg.addEventListener("mouseover", () => {
+        logoImg.title = logos[currentLogoIndex].era;
+        });  
 });
 
 
@@ -55,6 +59,7 @@ fetch("http://localhost:3000/seasons")
   .then(response => response.json())
   .then(seasons => {
     seasons.forEach(season => {
+      // search by season functionality, using dropdown menu
       const dropdownOption = document.createElement("option");
       dropdownOption.textContent = season.year;
       document.querySelector("#dropdown-menu").append(dropdownOption);
@@ -67,6 +72,7 @@ fetch("http://localhost:3000/seasons")
         clearTeamResults();
       });
 
+      // search by team functionality, using search bar
       const teamUL = document.querySelector(".teamUL");
       document.querySelector("#team-search").addEventListener("keydown", e => {
         if (e.key === "Enter"){
@@ -83,6 +89,7 @@ fetch("http://localhost:3000/seasons")
 
             document.querySelector("#club-logo").src = season.club_crest;
 
+            // Delete button functionality, uses click event listener and <button> element
             document.querySelector("#delete-button").addEventListener("click", e => {
                 winningSeasons.remove();
                 document.querySelector("#club-logo").src = "https://png2.cleanpng.com/sh/2ffdebf31805d55828fb4d655d3eec54/L0KzQYm3VsE0N5J6jJH0aYP2gLBuTgBzbZ5ufeQ2bHXkd8bsTgVmbpIye9pqbYDsf7B6TfxmaZh6fZ92YX7meLb6lPVzNZRuReJ7ZX3sdcO0jPVib6ZqReZ7b4DriX68gsIxbGE4SagENXO4RHA5V8YxOWYASqMAMki7R4i4UMU1O2I7RuJ3Zx==/kisspng-premier-league-uefa-champions-league-manchester-ci-premier-league-trophy-5b20d031695c54.2760159215288771054316.png";
@@ -96,7 +103,7 @@ fetch("http://localhost:3000/seasons")
         })
         }
       });
-
+      // Submit event listener kept for sole purpose of preventing defaul submit behavior, as we're using keydown for rest of "submit" functionality
       document.querySelector("#team-search").addEventListener("submit", e => {
         e.preventDefault();
       })
