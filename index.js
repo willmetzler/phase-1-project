@@ -91,7 +91,6 @@ fetch("http://localhost:3000/seasons")
 
             // Delete button functionality, uses click event listener and <button> element
             document.querySelector("#delete-button").addEventListener("click", e => {
-                winningSeasons.remove();
                 document.querySelector("#club-logo").src = "https://i.imgur.com/2X39ugc.png";
                 document.querySelector("#search-bar").value = "";
                 document.querySelector("#dropdown-menu").value = "Season..."
