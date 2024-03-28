@@ -92,7 +92,7 @@ fetch("http://localhost:3000/seasons")
             // Delete button functionality, uses click event listener and <button> element
             document.querySelector("#delete-button").addEventListener("click", e => {
                 winningSeasons.remove();
-                document.querySelector("#club-logo").src = "https://png2.cleanpng.com/sh/2ffdebf31805d55828fb4d655d3eec54/L0KzQYm3VsE0N5J6jJH0aYP2gLBuTgBzbZ5ufeQ2bHXkd8bsTgVmbpIye9pqbYDsf7B6TfxmaZh6fZ92YX7meLb6lPVzNZRuReJ7ZX3sdcO0jPVib6ZqReZ7b4DriX68gsIxbGE4SagENXO4RHA5V8YxOWYASqMAMki7R4i4UMU1O2I7RuJ3Zx==/kisspng-premier-league-uefa-champions-league-manchester-ci-premier-league-trophy-5b20d031695c54.2760159215288771054316.png";
+                document.querySelector("#club-logo").src = "https://i.imgur.com/2X39ugc.png";
                 document.querySelector("#search-bar").value = "";
                 document.querySelector("#dropdown-menu").value = "Season..."
                 clearSeasonResults();
